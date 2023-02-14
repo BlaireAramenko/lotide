@@ -37,7 +37,7 @@ module.exports = eqObjects;
 //assertObjectsEqual below 
 
 const assertObjectsEqual = function(actual, expected) {
-  const inspect = require('util').inspect; // <= add this line
+  const inspect = require('util').inspect; 
   if (eqObjects(actual, expected)) {
     console.log(`💕 Assertion Passed: ${inspect(actual)} === ${inspect(expected)}`);
   } else {
@@ -45,7 +45,7 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); // => true
+assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); 
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
