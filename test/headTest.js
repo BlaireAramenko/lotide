@@ -1,11 +1,4 @@
-let array = [];
-const head = function(array) {
+const head = require('../head');
 
-  return array[0];
-};
-
-assertEqual(head(2), 2);
-
-let head = require('../head');
-
-module.exports = head;
+const assertEqual = require('../assertEqual');
+assertEqual(head([2]), 2);
