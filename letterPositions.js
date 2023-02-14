@@ -54,8 +54,8 @@ const letterPositions = function(sentence) {
       
     } return results;
   };
-console.log(letterPositions('I am Web Developer'))
-//console.log(countLetters('I am Web Developer'));
+console.log(letterPositions('Hello world'))
+//console.log(countLetters('Hello world'));
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("Hey").e, [1]);
 
