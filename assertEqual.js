@@ -1,6 +1,6 @@
 const assertEqual = function(array1, array2) {
 
-  if (actual !== expected) {
+  if (array1 !== array2) {
     console.log(`💔 Assertion Failed: ${array1} !== ${array2}`);
   } else {
     console.log(`💕 Assertion Passed: ${array1} === ${array2}`);
